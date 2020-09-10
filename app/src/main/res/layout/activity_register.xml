@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    android:background="@mipmap/bg"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/setUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:hint="Enter Your Username"
+        android:paddingTop="20dp"
+
+        android:textSize="13sp"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/setPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:hint="Set Your Password"
+        android:paddingTop="20dp"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/email_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:hint="Enter Your Email Address"
+        android:paddingTop="20dp"
+        android:maxLines="1"
+        android:textSize="13sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Go Back"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+</LinearLayout>
